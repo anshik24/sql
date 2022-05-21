@@ -1,0 +1,3 @@
+select distinct B.name from COUNTRY A join CITY B on A.code=B.COUNTRYCODE
+WHERE A.CONTINENT='Africa'
+order by B.name;
